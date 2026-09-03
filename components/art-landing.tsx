@@ -59,8 +59,8 @@ export function ArtLanding() {
               <a className="nav-link" href="#collection">Collection</a>
             </nav>
             <a href="#home" className="site-logo justify-self-center relative flex h-[42px] w-[200px] items-center justify-center">
-              <span className={`absolute transition-all duration-500 font-serif text-[35px] leading-none tracking-[-0.065em] ${scrolled ? 'opacity-0 scale-90 pointer-events-none' : 'opacity-100 scale-100'}`}>Wild <span>Form</span></span>
-              <img src="/Logo.png" alt="Wildform Studio Logo" className={`absolute transition-all duration-500 object-contain h-full w-full ${scrolled ? 'opacity-100 scale-100' : 'opacity-0 scale-110 pointer-events-none'}`} />
+              <img src="/Title%20(4).png" alt="Wild Form" className={`absolute h-full w-full object-contain transition-all duration-500 ${scrolled ? 'opacity-0 scale-90 pointer-events-none' : 'opacity-100 scale-100'}`} />
+              <img src="/logo.png" alt="Wildform Studio Logo" className={`absolute transition-all duration-500 object-contain h-full w-full ${scrolled ? 'opacity-100 scale-100' : 'opacity-0 scale-110 pointer-events-none'}`} />
             </a>
             <nav className="hidden items-center gap-10 justify-self-end text-[13px] font-medium tracking-[0.02em] md:flex" aria-label="Secondary navigation">
               <a className="nav-link" href="#about">About</a>
