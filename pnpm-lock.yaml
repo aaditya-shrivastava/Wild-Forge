@@ -63,6 +63,10 @@ importers:
       typescript:
         specifier: 5.7.3
         version: 5.7.3
+    optionalDependencies:
+      '@tailwindcss/oxide-linux-x64-gnu':
+        specifier: 4.3.3
+        version: 4.3.3
 
 packages:
 
