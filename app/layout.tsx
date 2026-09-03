@@ -7,24 +7,11 @@ const dmSans = DM_Sans({ subsets: ['latin'], variable: '--font-dm-sans' })
 const cormorant = Cormorant_Garamond({ subsets: ['latin'], variable: '--font-cormorant' })
 
 export const metadata: Metadata = {
-  title: 'The ART — Contemporary Art, Timeless Inspiration',
+  title: 'Wild Form — Contemporary Art, Timeless Inspiration',
   description: 'The ART is a contemporary art brand creating collectible works that transform spaces and inspire lasting connections.',
   generator: 'v0.app',
   icons: {
-    icon: [
-      {
-        url: '/icon-light-32x32.png',
-        media: '(prefers-color-scheme: light)',
-      },
-      {
-        url: '/icon-dark-32x32.png',
-        media: '(prefers-color-scheme: dark)',
-      },
-      {
-        url: '/icon.svg',
-        type: 'image/svg+xml',
-      },
-    ],
+    icon: '/FAvicaon.png',
     apple: '/apple-icon.png',
   },
 }
