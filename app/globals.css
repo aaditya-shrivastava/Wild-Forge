@@ -62,7 +62,7 @@
   .nav-link { position: relative; }
   .nav-link-active::after { content: ''; position: absolute; right: 0; bottom: -8px; left: 0; height: 1px; background: currentColor; }
   .banner-background {
-    position: absolute;
+    position: fixed;
     inset: 0;
     z-index: 0;
     overflow: hidden;
