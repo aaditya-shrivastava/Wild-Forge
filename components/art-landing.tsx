@@ -58,7 +58,7 @@ export function ArtLanding() {
               className="justify-self-start font-serif text-[27px] leading-none tracking-[-0.06em] md:hidden"
               aria-label="The ART home"
             >
-              The <span className="text-[31px]">ART</span>
+            
             </a>
             <nav
               className="hidden items-center gap-11 justify-self-start text-[13px] font-medium tracking-[0.02em] md:flex"
